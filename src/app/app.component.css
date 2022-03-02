@@ -1,0 +1,9 @@
+#appComponent {
+  width: 90vw;
+  height: 90vh;
+  padding: 15px;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  z-index: 1;
+}
