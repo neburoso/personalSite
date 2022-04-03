@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,13 +10,15 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './Components/home/home.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { IonicModule } from '@ionic/angular';
+import { EmailerComponent } from './Components/emailer/emailer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    EmailerComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +26,7 @@ import { IonicModule } from '@ionic/angular';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
+    ReactiveFormsModule,
     IonicModule.forRoot()
 
   ],

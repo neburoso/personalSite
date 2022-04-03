@@ -1,0 +1,19 @@
+
+    <h2>Contact Form</h2>
+    <form [formGroup]="contactForm" (ngSubmit)="sendEmail()">
+
+
+ 
+            <label for="name">Full Name</label>
+            <input type="text" [formControl]="name" required minlength="1" maxlength="50">
+            <label for="email">Email</label>
+            <input type="email" [formControl]="email" required>
+
+
+        <label for="message">Message</label>
+        <textarea [formControl]="message" required minlength="1" maxlength="255" cols="30" rows="10"></textarea>
+        <button type="submit">Send Email</button>
+    </form>
+
+
+

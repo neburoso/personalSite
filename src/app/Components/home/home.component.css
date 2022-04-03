@@ -1,5 +1,5 @@
 #main {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 80vh;
   padding: 15px;
   text-align: center;
@@ -11,7 +11,65 @@ p {
   margin-top: 20px;
 }
 img {
-  width: 200px;
+  min-width: 200px;
+  width: 40%;
+  max-width: 300px;
 
   margin: auto;
+}
+
+/* SKill List section */
+
+.skillList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+
+.skill {
+  width: 200px;
+  text-align: center;
+  margin: 20px auto;
+  list-style: none;
+}
+
+.skill p {
+  margin: auto;
+  text-align: center;
+  font-weight: 800;
+}
+.skill ion-icon {
+  font-size: 50px;
+}
+.skill i {
+  font-size: 50px;
+}
+
+/* Skills Icons */
+
+.html ion-icon {
+  color: #f06529;
+}
+.css ion-icon {
+  color: #2965f1;
+}
+.js ion-icon {
+  color: #f0db4f;
+  background-color: #323330;
+}
+.angular ion-icon {
+  color: #b52e31;
+}
+.node ion-icon {
+  color: #68a063;
+}
+.sass ion-icon {
+  color: #cc6699;
+}
+.php i {
+  color: #232531;
+}
+.git i {
+  color: #f34f29;
 }

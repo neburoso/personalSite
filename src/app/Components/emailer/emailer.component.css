@@ -1,0 +1,23 @@
+form {
+  display: grid;
+  margin: auto;
+}
+
+button {
+  margin: 5px;
+  border-radius: 5px;
+  height: 50px;
+  background-color: #4ec9b0;
+  color: white;
+  font-family: Digital;
+  font-size: 20px;
+}
+
+@media (min-width: 800px) {
+  form {
+    width: 50%;
+  }
+  button {
+    max-width: 50%;
+  }
+}
