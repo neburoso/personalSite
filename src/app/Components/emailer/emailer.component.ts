@@ -62,21 +62,6 @@ export class EmailerComponent implements OnInit {
 
 
 
-    // Email.send({
-    //   Host:'smtp.zoho.eu',
-    //   Username:'rubenpuerta89@gmail.com',
-    //   Password: 'NEBUR26niek@Zoho',
-    //   To:"ruben@puertacordoba.com",
-    //   From:"ruben@puertacordoba.com",
-    //   Subject:"Email from PuertaCordoba.com",
-    //   Body:"testEmail this is a test"
-
-    // }).then(
-    //   // message => {alert(message);  
-    //   // console.log(sendingEmail)
-    // )
-    
-
 
 
 
