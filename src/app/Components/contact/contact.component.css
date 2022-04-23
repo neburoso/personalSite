@@ -1,0 +1,20 @@
+form{
+    display: grid;
+    max-width: 500px;
+    margin:auto
+}
+h2{
+
+    margin: 20px auto;
+    width: 150px;
+}
+
+button{
+    height: 50px;
+    font-family: Digital;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #4ec9b0;
+    color: white;
+}
