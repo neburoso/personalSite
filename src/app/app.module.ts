@@ -10,6 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './Components/home/home.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { IonicModule } from '@ionic/angular';
+import { ContactComponent } from './Components/contact/contact.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { IonicModule } from '@ionic/angular';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,7 @@ import { IonicModule } from '@ionic/angular';
     MatButtonModule,
     MatIconModule,
     ReactiveFormsModule,
-    IonicModule.forRoot()
+    IonicModule.forRoot(),
 
   ],
   providers: [],
