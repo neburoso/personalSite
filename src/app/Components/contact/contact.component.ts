@@ -60,7 +60,9 @@ checkme(contact:any, e:Event){
   if(!contact.checkValidity()){
     contact.reportValidity()
   }else{
+    contact.action= "https://formsubmit.co/ruben@puertacordoba.com";
     contact.submit()
+    contact.action= "#"
   }
 
   // let form= document.getElementsByTagName("form");
