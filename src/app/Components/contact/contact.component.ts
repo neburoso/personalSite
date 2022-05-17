@@ -1,21 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 // import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 // import { ContactService } from 'src/app/Services/contact.service';
 
-interface contactDetails {
-  name:string,
-  email:string,
-  message:string
-}
+
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent implements OnInit{
 
-  // contactMessage: contactDetails;
+    // contactMessage: contactDetails;
 
   // name:FormControl;
   // email:FormControl;
@@ -23,13 +19,12 @@ export class ContactComponent implements OnInit {
   // contactForm:FormGroup;
   // isValidForm:boolean;
 
-
+ 
   constructor(
   //  private formBuilder:FormBuilder,
   //  private contactService: ContactService
     
   ) { 
-
     // this.isValidForm=false;
     // this.contactMessage={name:"", message:"", email:""}
     // this.name=new FormControl(this.contactMessage.name)
@@ -45,8 +40,35 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    
+
+    // document.getElementById("sb-btn")?.addEventListener("click", function(submit){
+    //   let form= document.getElementsByTagName("form");
+    //   if(!form[0].checkValidity()){
+    //    submit.preventDefault()
+    //     form[0].reportValidity()
+    //   }
+    
+    //   })
   }
 
+
+checkme(contact:any, e:Event){
+  e.preventDefault()
+
+  if(!contact.checkValidity()){
+    contact.reportValidity()
+  }else{
+    contact.submit()
+  }
+
+  // let form= document.getElementsByTagName("form");
+  //   if(!form[0].checkValidity()){
+  //      form[0].reportValidity()
+  //      return;
+  //   }
+}
   // sendMessage(){
   // this.contactService.sendMessage(this.contactForm.value)
   // console.log("sent")
