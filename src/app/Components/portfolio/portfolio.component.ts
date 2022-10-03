@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
+  projects:any[]=[]
+
   constructor() { }
 
   ngOnInit(): void {
+    this.projects=[{
+      name: 'Made of Heaven',
+      src: "../../assets/media/madeOfHeaven.JPG",
+      description: "University Project: Music band's website using Bootstrap and Sass (Grid, @supports, stylelint required)"
+      ,
+      url: "https://hungry-leakey-d83831.netlify.app/index.html"
+    }]
   }
 
 }
