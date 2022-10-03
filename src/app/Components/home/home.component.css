@@ -20,6 +20,11 @@ img {
   margin: auto;
 }
 
+#about{
+  max-width: 70vw;
+  margin:auto;
+}
+
 /* SKill List section */
 
 .skillList {
