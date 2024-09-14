@@ -40,6 +40,8 @@ img {
   text-align: center;
   margin: 20px auto;
   list-style: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  position: relative;
 }
 
 .skill p {
@@ -52,6 +54,11 @@ img {
 }
 .skill i {
   font-size: 50px;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  background-color: #e6f7ff;
 }
 
 /* Skills Icons */
