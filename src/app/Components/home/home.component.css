@@ -72,8 +72,32 @@ img {
 .node ion-icon {
   color: #68a063;
 }
+.mongodb ion-icon {
+  color: green;
+}
+.docker ion-icon {
+  color: dodgerblue;
+}
+.aws ion-icon {
+  color: orange;
+}
+.mssql ion-icon {
+  color: dodgerblue;
+}
 .sass ion-icon {
   color: #cc6699;
+}
+.postgresql ion-icon {
+  color: #0e76a8;
+}
+.kotlin ion-icon {
+  color: #833ab4;
+}
+.springboot ion-icon {
+color: springgreen;
+}
+.ts i {
+  color: #0e76a8;
 }
 .php i {
   color: #232531;
