@@ -16,6 +16,9 @@
         <li>
             <a href="../../assets/files/Ruben Puerta.pdf" target="_blank"><p>Résumé</p></a>
         </li>
+       <li>
+         <a routerLink="education" routerLinkActive="active"><p>Education</p></a>
+       </li>
          <li>
             <a routerLink="portfolio" routerLinkActive="active"><p>Portfolio</p></a>
         </li>
@@ -43,11 +46,14 @@
 <nav [class.open]="openMenu">
     <ul>
       <li>
-        <a routerLink="/" routerLinkActive="active"><p>Home</p></a>
+        <a routerLink="/" routerLinkActive="active" (click)="toggleMenu()"><p>Home</p></a>
       </li>
         <li>
             <a href="../../assets/files/Ruben Puerta.pdf" target="_blank"><p>Résumé</p></a>
         </li>
+      <li>
+        <a routerLink="education" routerLinkActive="active" (click)="toggleMenu()"><p>Education</p></a>
+      </li>
         <li>
             <a routerLink="portfolio" routerLinkActive="active" (click)="toggleMenu()"><p>Portfolio</p></a>
         </li>

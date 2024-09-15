@@ -196,7 +196,7 @@ a h1:active {
     max-width: 200px;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   #headerMenu {
     display: block;
     position: relative;

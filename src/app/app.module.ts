@@ -11,6 +11,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { IonicModule } from '@ionic/angular';
 import { ContactComponent } from './Components/contact/contact.component';
+import {EducationComponent} from "./Components/education/education.component";
 
 
 @NgModule({
@@ -21,16 +22,17 @@ import { ContactComponent } from './Components/contact/contact.component';
     PortfolioComponent,
     ContactComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatIconModule,
-    ReactiveFormsModule,
-    IonicModule.forRoot(),
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatButtonModule,
+        MatIconModule,
+        ReactiveFormsModule,
+        IonicModule.forRoot(),
+        EducationComponent,
 
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
