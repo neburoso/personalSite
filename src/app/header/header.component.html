@@ -10,15 +10,14 @@
  <div id="headerMenu">
      <ul>
 
+       <li>
+         <a routerLink="/" routerLinkActive="active"><p>Home</p></a>
+       </li>
         <li>
             <a href="../../assets/files/Ruben Puerta.pdf" target="_blank"><p>Résumé</p></a>
         </li>
-        <!-- <li>
+         <li>
             <a routerLink="portfolio" routerLinkActive="active"><p>Portfolio</p></a>
-        </li> -->
-
-        <li>
-            <a routerLink="contact" routerLinkActive="active"><p>Contact</p></a>
         </li>
 
         <li>
@@ -39,12 +38,15 @@
 </header>
 <nav [class.open]="openMenu">
     <ul>
+      <li>
+        <a routerLink="/" routerLinkActive="active"><p>Home</p></a>
+      </li>
         <li>
             <a href="../../assets/files/Ruben Puerta.pdf" target="_blank"><p>Résumé</p></a>
         </li>
-        <!-- <li>
+        <li>
             <a routerLink="portfolio" routerLinkActive="active" (click)="toggleMenu()"><p>Portfolio</p></a>
-        </li> -->
+        </li>
 
         <li>
             <ul class="icons">
