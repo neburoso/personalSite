@@ -1,9 +1,4 @@
-main {
-  overflow-y: auto;
-  height: 80vh;
-  padding: 15px;
-  text-align: center;
-}
+
 li{
   list-style: none;
 }
