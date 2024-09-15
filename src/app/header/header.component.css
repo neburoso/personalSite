@@ -2,6 +2,7 @@ header {
   display: inline-flex;;
   width: 100vw;
 }
+
 header a {
   cursor: pointer;
   text-decoration: none;
@@ -39,6 +40,7 @@ nav ul {
   margin: auto;
   height: 100%;
 }
+
 nav ul li {
   height: 10%;
 }
@@ -48,6 +50,7 @@ nav.open {
 
   transition: width 1s;
 }
+
 a {
   color: #4ec9b0;
 }
@@ -55,6 +58,7 @@ a {
 a:hover {
   color: #9cdcfe;
 }
+
 a:active {
   color: #c586c0;
 }
@@ -73,6 +77,7 @@ nav ul li a {
 nav ul li a p {
   margin: auto;
 }
+
 nav ul li .icons {
   display: inline-flex;
   text-align: center;
@@ -99,6 +104,7 @@ nav ul li .icons li {
 nav ul li a:hover {
   color: #4ec9b0;
 }
+
 nav ul li a:active {
   color: #c586c0;
 }
@@ -106,6 +112,7 @@ nav ul li a:active {
 canvas {
   position: absolute;
 }
+
 .canvas {
   background-color: #525252;
   opacity: 60%;
@@ -149,6 +156,7 @@ a h1:active {
   background-color: white;
   border-radius: 50%;
 }
+
 .instagram-i {
   background: linear-gradient(
     45deg,
@@ -162,11 +170,13 @@ a h1:active {
   color: white;
   border-radius: 25%;
 }
+
 .linkedin-i {
   color: #0e76a8;
   background-color: white;
   border-radius: 10%;
 }
+
 .github-i {
   color: #211f1f;
   background-color: white;
@@ -178,11 +188,13 @@ a h1:active {
     -moz-transform: rotate(360deg);
   }
 }
+
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
@@ -196,6 +208,7 @@ a h1:active {
     max-width: 200px;
   }
 }
+
 @media (min-width: 1000px) {
   #headerMenu {
     display: block;
@@ -223,6 +236,7 @@ a h1:active {
   nav.open {
     display: none;
   }
+
   .hamburguer {
     display: none;
   }

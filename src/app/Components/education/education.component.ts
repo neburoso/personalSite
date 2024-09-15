@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-education',
@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './education.component.css'
 })
 export class EducationComponent {
-
 }

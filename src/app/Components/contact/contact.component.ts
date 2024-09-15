@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -6,6 +6,5 @@ import { Component} from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-
-  emailInfo= "ruben@puertacordoba.com"
+  emailInfo = "ruben@puertacordoba.com"
 }

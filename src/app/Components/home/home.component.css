@@ -1,11 +1,13 @@
 
-li{
+li {
   list-style: none;
 }
+
 p {
   text-align: justify;
   margin-top: 20px;
 }
+
 .profileImage {
   min-width: 200px;
   width: 40%;
@@ -15,9 +17,9 @@ p {
   box-shadow: 10px 10px 5px lightblue;
 }
 
-#about{
+#about {
   max-width: 70vw;
-  margin:auto;
+  margin: auto;
 }
 
 /* SKill List section */
@@ -44,9 +46,11 @@ p {
   text-align: center;
   font-weight: 800;
 }
+
 .skill ion-icon {
   font-size: 50px;
 }
+
 .skill i {
   font-size: 50px;
 }
@@ -61,49 +65,64 @@ p {
 .html ion-icon {
   color: #f06529;
 }
+
 .css ion-icon {
   color: #2965f1;
 }
+
 .js ion-icon {
   color: #f0db4f;
   background-color: #323330;
 }
+
 .angular ion-icon {
   color: #b52e31;
 }
+
 .node ion-icon {
   color: #68a063;
 }
+
 .mongodb ion-icon {
   color: green;
 }
+
 .docker ion-icon {
   color: dodgerblue;
 }
+
 .aws ion-icon {
   color: orange;
 }
+
 .mssql ion-icon {
   color: dodgerblue;
 }
+
 .sass ion-icon {
   color: #cc6699;
 }
+
 .postgresql ion-icon {
   color: #0e76a8;
 }
+
 .kotlin ion-icon {
   color: #833ab4;
 }
+
 .springboot ion-icon {
-color: springgreen;
+  color: springgreen;
 }
+
 .ts i {
   color: #0e76a8;
 }
+
 .php i {
   color: #232531;
 }
+
 .git i {
   color: #f34f29;
 }

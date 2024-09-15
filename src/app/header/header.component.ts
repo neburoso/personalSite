@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,24 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  openMenu:boolean;
-  hamburguer:string;
+  openMenu: boolean;
+  hamburguer: string;
+
   constructor() {
-    this.openMenu=false;
-    this.hamburguer="menu";
-   }
+    this.openMenu = false;
+    this.hamburguer = "menu";
+  }
 
   ngOnInit(): void {
   }
 
-  toggleMenu(){
-    this.openMenu= !this.openMenu;
-    if(this.openMenu){
-      this.hamburguer="close"
-    }else{
-      this.hamburguer="menu"
+  toggleMenu() {
+    this.openMenu = !this.openMenu;
+    if (this.openMenu) {
+      this.hamburguer = "close"
+    } else {
+      this.hamburguer = "menu"
     }
-
   }
-
 }
