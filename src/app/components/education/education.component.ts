@@ -20,12 +20,12 @@ export class EducationComponent {
     ),
     new BoxData(
       "https://skillsoft.digitalbadges.skillsoft.com/1db910ff-c34f-40cf-93e1-7fd57b7f8166#gs.ensrx7",
-      "../../../assets/media/education/AI1.png",
+      "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/115233619",
       "Artificial Intelligence: Basic AI Theory"
     ),
     new BoxData(
       "https://skillsoft.digitalbadges.skillsoft.com/9409ec24-ee8a-4dc3-bb8f-2933db057d5f#gs.f9qtge",
-      "../../../assets/media/education/AI2.png",
+      "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/115561178",
       "Artificial Intelligence: Types of Artificial Intelligence"
     ),
     new BoxData(
