@@ -1,0 +1,18 @@
+<h2>Formal Education</h2>
+
+<section>
+  <div class="flexBox">
+    <img src="https://www.uoc.edu/portal/system/modules/edu.uoc.presentations/resources/img/branding/logo-footer.png"
+         alt="Web Development and Applications ">
+    <h3>Master's Degree in Web Development and Applications</h3>
+  </div>
+</section>
+
+<h2>Courses</h2>
+
+<section>
+  <a *ngFor="let course of courses;" [href]="course.url" target="_blank" class="flexBox">
+    <img [src]="course.img" [alt]="course.name + 'image' ">
+    <h3>{{ course.name }}</h3>
+  </a>
+</section>

@@ -21,6 +21,7 @@
   );
   animation: AnimateBG 20s ease infinite;
 }
+
 app-root {
   position: absolute;
   overflow: hidden;
@@ -32,24 +33,31 @@ app-root {
 .figuresPink {
   color: #c586c0;
 }
+
 .figuresYellow {
   color: #ffd700;
 }
+
 .figuresBlue {
   color: #9cdcfe;
 }
+
 .figuresOrange {
   color: #ce9178;
 }
+
 .figuresGreen {
   color: #4ec9b0;
 }
+
 .figuresDarkBlue {
   color: #569cd6;
 }
+
 .figuresGrey {
   color: #808080;
 }
+
 .figuresLightYellow {
   color: #dcdcaa;
 }
@@ -143,6 +151,36 @@ app-root {
   animation-duration: 11s;
 }
 
+.flexBox {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.flexBox img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  max-height: 200px;
+}
+
+.flexBox:hover {
+  transform: scale(1.05);
+  color: #007bff;
+}
+
+
 @keyframes animateFigures {
   0% {
     transform: translateY(-1000px);
@@ -169,6 +207,7 @@ html,
 #backShow {
   height: 100%;
 }
+
 #backShow {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
@@ -178,6 +217,7 @@ html,
 #backShow {
   height: 100%;
 }
+
 #backShow {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;

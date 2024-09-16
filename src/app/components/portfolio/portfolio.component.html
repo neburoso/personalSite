@@ -1,0 +1,9 @@
+<h2> Portfolio</h2>
+<p>Explore some of my projects/mockups and feel free to connect with me!</p>
+
+<section>
+  <a *ngFor="let project of projects;" [href]="project.url" target="_blank" class="flexBox">
+    <img [src]="project.img" [alt]="project.name + 'image' ">
+    <h3>{{ project.name }}</h3>
+  </a>
+</section>
