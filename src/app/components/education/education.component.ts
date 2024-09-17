@@ -34,7 +34,7 @@ export class EducationComponent {
       "Kotlin:Introduction"
     ),
     new BoxData(
-      "../../../assets/files/education/ide.pdf",
+      "../../../assets/files/education/IDEs.pdf",
       "../../../assets/media/education/ide.png",
       "Kotlin:IDEs"
     ),
