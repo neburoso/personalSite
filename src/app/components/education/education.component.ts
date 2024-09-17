@@ -29,6 +29,31 @@ export class EducationComponent {
       "Artificial Intelligence: Types of Artificial Intelligence"
     ),
     new BoxData(
+      "../../../assets/files/education/Introduction.pdf",
+      "../../../assets/media/education/introduction.png",
+      "Kotlin:Introduction"
+    ),
+    new BoxData(
+      "../../../assets/files/education/ide.pdf",
+      "../../../assets/media/education/ide.png",
+      "Kotlin:IDEs"
+    ),
+    new BoxData(
+      "../../../assets/files/education/Loops & Functions.pdf",
+      "../../../assets/media/education/loop.png",
+      "Kotlin:Loops & Functions"
+    ),
+    new BoxData(
+      "../../../assets/files/education/Objects & Classes.pdf",
+      "../../../assets/media/education/object.png",
+      "Kotlin: Objects & Classes"
+    ),
+    new BoxData(
+      "../../../assets/files/education/Syntax.pdf",
+      "../../../assets/media/education/syntax.png",
+      "Kotlin: Syntax"
+    ),
+    new BoxData(
       "https://www.udemy.com/certificate/UC-5526ff73-b5a0-4299-871f-74966bfe9717/",
       "https://udemy-certificate.s3.amazonaws.com/image/UC-5526ff73-b5a0-4299-871f-74966bfe9717.jpg?v=1597944462000",
       "Javascript Intermediate level 1 - Mastering the DOM"
